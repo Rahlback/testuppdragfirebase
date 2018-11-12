@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">test-uppdrag-firebase</string>
     <string name="title_activity_sign_in">signIn</string>
-    <string name="signInButtonText" >Sign in with Google</string>
+    <string name="signInButtonText">Sign in with Google</string>
     <string name="signInSubmitButton">Logga in</string>
+    <string name="signOutButtonText">Logga ut</string>
 </resources>

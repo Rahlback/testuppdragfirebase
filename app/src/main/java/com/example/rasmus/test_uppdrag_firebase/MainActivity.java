@@ -93,11 +93,8 @@ public class MainActivity extends AppCompatActivity {
 
     public void updateUI(FirebaseUser user){
         if (user != null){
-            ViewGroup layout = (ViewGroup) signInButton.getParent();
-            if (layout != null){
-                layout.removeView(signInButton);
-            }
-            Toast.makeText(this, "Signed in", Toast.LENGTH_SHORT).show();
+            Intent intent = new Intent(this, LoggedInActivity.class);
+            startActivity(intent);
         }
     }
 
